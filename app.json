@@ -1,0 +1,26 @@
+{
+  "id": "bd5d5398-b37c-4276-99d8-0914f2d679ca",
+  "name": "AL Http Client",
+  "publisher": "Sumit Shede",
+  "version": "1.0.0.0",
+  "brief": "REST API calls from Business Central AL using HttpClient.",
+  "description": "A request tester page for Business Central. Send any HTTP method with custom headers and body to httpbin.org and inspect the response.",
+  "dependencies": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
